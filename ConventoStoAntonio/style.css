@@ -12,12 +12,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #E8B37D;
+  font-family: Helvetica, Arial, Sans-Serif;
+
 }
 
-.menu {position: fixed;top: 0.5em;}
-.waves-mine{float: left; width: 140px; margin: 5px;}
-.responsive-img{width: 100%;height: auto;opacity: 0.5;}
-.responsive-img:hover{opacity: 1.0;}
+.back{float: left; font-size: 15em;color: white !important; opacity: 0.8; position: fixed ; left: 0.1em;top: 0.1em; line-height: 0.5em;}
+.back:hover{opacity: 1;}
+.back a:link { text-decoration: none; color: white !important;}
+.back a:visited { text-decoration: none; color: white !important;}
+.back a:hover { text-decoration: none; color: white !important;}
+.back a:active { text-decoration: none; color: white !important;}
 
 
 .container {
